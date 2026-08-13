@@ -1,0 +1,9 @@
+.first{
+    border: 3px solid red;
+   min-width: 300px;
+   /* max-width: 800px; */ */
+  
+}
+img{
+    width: 100%;
+}
