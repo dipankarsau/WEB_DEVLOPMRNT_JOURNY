@@ -1,0 +1,14 @@
+/* css outline style  */
+/* solid , dotted, dashed, double, groove, ridge, Inset,outset,None */
+
+
+
+
+ p {
+    margin: 0;
+    text-align: center;
+    border: 3px solid red;
+    margin:  20px;
+    outline: solid 6px  green;
+    outline-offset: 4px;
+ }
