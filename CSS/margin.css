@@ -1,0 +1,16 @@
+/* CSS MARGIN PROPERTIES */
+/* margin-top
+margin-right
+margin-bottom
+margin-left */
+
+.first{
+    border: 1px solid black;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.second{
+    border: 2px solid red;
+    margin-left: 20px;
+    padding: 10px;
+}
