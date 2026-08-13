@@ -1,0 +1,16 @@
+/* css pading properties */
+/* padding-top
+padding-right
+padding-bottom
+padding-left */
+
+
+/* shortcut */
+/* padding:10px 20px 15px 25px  */
+/* clock wise */
+
+
+.text{
+    border: 2px solid black;
+    padding: 20px 50px 100px 10px ;
+}
