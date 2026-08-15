@@ -1,0 +1,9 @@
+#box{
+    width: 500px;
+    border: 50px solid black;
+    padding: 120px ;
+    box-sizing: border-box;
+
+
+
+}
