@@ -1,0 +1,24 @@
+/* #properties
+.HIDDEN
+.SCROLL
+.AUTO
+.VISIBLE */
+
+
+/* 3 type of overflow properties */
+/* .overflow
+.overflow-x
+.overflow-y */
+
+#box1{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    /* overflow-y: hidden; */
+    /* overflow-y: scroll; */
+    /* overflow-x: auto; */
+
+}
