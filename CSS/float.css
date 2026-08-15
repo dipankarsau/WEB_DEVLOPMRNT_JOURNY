@@ -1,0 +1,23 @@
+.box{
+    width: 300px;
+    border: 2px solid black;
+    float: left;
+    /* margin: 10px; */
+
+}
+.box1{
+
+    width: 300px;
+    border: 2px solid blue;
+    /* float: right; */
+    float: left;
+    /* margin: 10px; */
+}
+.box3{
+
+    width: 300px;
+    border: 2px solid blue;
+    /* float: right; */
+    float: left;
+    /* margin: 10px; */
+}
