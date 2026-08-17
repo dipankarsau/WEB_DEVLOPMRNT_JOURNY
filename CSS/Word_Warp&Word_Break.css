@@ -1,0 +1,12 @@
+/* Word-Break
+· break-all
+· keep-all */
+
+
+
+.box{
+    width: 400px;
+    border: 2px solid black;
+    /* word-wrap:break-word ; */
+    word-break: break-all;
+}
