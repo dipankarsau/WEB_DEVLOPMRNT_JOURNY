@@ -1,0 +1,15 @@
+/* White-Space Values
+· Normal
+. Nowrap
+· Pre
+· pre-line
+· pre-wrap */
+
+.box{
+    width: 400px ;
+    border: 2px solid black;
+    /* white-space: nowrap; */
+    /* white-space: pre; */
+    /* white-space: pre-line; */
+    white-space: pre-wrap;
+}
