@@ -1,0 +1,35 @@
+/* CSS Text-Decoration Properties
+· text-decoration-line
+· text-decoration-color
+· text-decoration-style */
+
+/* Text-Decoration-Line
+· Underline
+· Overline
+. Line-through
+· None */
+
+/* 
+Text-Decoration-Style
+· Solid
+. Dotted
+· Dashed
+· Double
+· Wavy */
+
+/* Text-Decoration Shorthand
+text-decoration-line : underline;
+text-decoration-color : red;
+text-decoration-style : wavy; */
+
+.box{
+    width: 400px;
+    padding: 25px;
+    border: 2px solid black;
+    /* text-decoration-line: underline;
+    text-decoration-color:red ;
+    /* text-decoration-style: dotted; */
+        /* text-decoration-style: dashed;
+            text-decoration-style: wavy;  */
+        text-decoration: underline red wavy;
+}
