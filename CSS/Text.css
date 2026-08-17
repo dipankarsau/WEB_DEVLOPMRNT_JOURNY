@@ -1,0 +1,26 @@
+/* CSS Text Properties
+· Text-align
+· Text-align-last
+· Text-transform
+· Text-indent
+. Word-spacing
+· Letter-spacing */
+
+.box{
+    width: 400px;
+    padding: 25px;
+    border: 2px solid black;
+    /* text-align: right; */
+    /* text-align: center; */
+    /* text-align: justify; */
+    /* text-align-last: right; */
+    /* text-align-last:center ;
+    text-align-last:auto ; */
+
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    /* text-indent: 100px; */
+    word-spacing: 20px ;
+    letter-spacing: 10px;
+}
