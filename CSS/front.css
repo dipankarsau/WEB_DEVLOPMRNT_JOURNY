@@ -1,0 +1,52 @@
+/* CSS Font Properties
+
+· Font-size
+· Font-family
+· Font-weight
+· Font-style
+· Font-variant
+· Line-height */
+
+
+
+/* Font-Size Predefine Values
+
+. Xx-small
+· X-small
+· Small
+· Smaller
+· Medium
+· Large
+· X-large
+· Xx-large */
+body{
+
+    font-size: 18px;
+}
+
+.box{
+    width: 400px;
+    padding: 25px;
+    border: 2px solid  black;
+    margin-bottom: 20px ;
+    /* font-size: 12px; */
+    /* font-size: 50%; */
+    /* font-size: 1em; */
+    /* line-height: 40px; */
+    /* font-weight: bold; */
+    /* font-weight: 700; */
+    /* font-weight: normal; */
+    /* font-style: italic; */
+    /* font-style: oblique;
+    font-variant: small-caps; */
+    font: oblique small-caps normal 15px/30px Arial;
+}
+
+
+.box1{
+    width: 400px;
+    padding: 25px;
+    border: 2px solid  black;
+    font-weight: bolder;
+    
+}
