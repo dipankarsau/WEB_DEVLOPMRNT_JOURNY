@@ -1,0 +1,6 @@
+.box{
+    background-image: url(../ASSEST/ICON/Screenshot\ 2026-08-08\ 215031.png);
+    /* background-repeat: repeat-y; */
+        /* background-repeat: repeat-x; */
+            background-repeat: space;
+}
