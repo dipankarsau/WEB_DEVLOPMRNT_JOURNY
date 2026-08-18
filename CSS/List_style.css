@@ -1,0 +1,21 @@
+/* CSS List Style Properties
+
+List-style-image
+List-style-position
+List-style-type
+List-style */
+
+ul{
+    list-style-type: circle;
+   list-style-type: square;
+   border: 1px solid red;
+   list-style-position: inside;
+   /* list-style-image: url(../ASSEST/ICON/security.png); * */
+  
+   /* list-style: ; */
+}
+ol{
+    /* list-style-type: upper-alpha; */
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
