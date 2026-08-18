@@ -1,0 +1,14 @@
+/* Text-overflow Values
+· Clip (default)
+· Ellipsis
+· string */
+
+.box{
+    width: 400px;
+    border: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* text-overflow: " edc "; */
+    /* text-overflow: clip; */
+}
