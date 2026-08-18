@@ -1,8 +1,13 @@
 .box{
-    background-image: url(../ASSEST/ICON/Screenshot\ 2026-08-08\ 215031.png);
+    background-image: url(../ASSEST/ICON/Screenshot\ 2026-08-08\ 215031.png),url(../ASSEST/ICON/security.png);
     /* background-repeat: repeat-y; */
         /* background-repeat: repeat-x; */
-            background-repeat: space;
-
-            
+            /* background-repeat: space; */
+            /* background-position: right top; */
+                  /* background-position: left top; */
+                        /* background-position: right center; */
+                              /* background-position: center center; */
+                              /* background-position: 40% 10%,center center; */
+  /* short hand */
+background: blue url(../ASSEST/ICON/Screenshot\ 2026-08-08\ 215031.png) no-repeat center center ;
 }
