@@ -1,0 +1,20 @@
+/* Writing-mode Values
+· horizontal-tb (default)
+· vertical-rl
+· vertical-Ir
+· sideways-rl
+· sideways-Ir
+
+
+ */
+
+
+
+.box{
+    width: 400px;
+    border: 2px solid black;
+    /* writing-mode: vertical-lr; */
+    /* writing-mode: sideways-rl; */
+    /* writing-mode: sideways-lr; */
+    writing-mode: sideways-rl;
+}
