@@ -1,0 +1,27 @@
+/* 
+wrap
+CSS Text-wrap
+warp
+Lorem ipsum dolor sit amet consectetur
+adipisicing elit.
+
+balance
+Lorem ipsum dolor sit amet
+consectetur adipisicing elit.
+
+nowrap
+Lorem ipsum dolor sit amet consectetur adipisicing elit. */
+
+h1{
+    color: white;
+    background-color: green;
+    max-width: 500px;
+    text-wrap:balance;
+    text-align: center;
+}
+h2{
+     color: yellow;
+     background-color: blue;
+     text-wrap: nowrap;
+     max-width: 500px;
+}
