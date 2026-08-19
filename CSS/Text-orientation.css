@@ -1,0 +1,15 @@
+/* CSS Text-orientation Values
+· mixed
+. upright
+· sideways
+· sideways-right */
+
+.box{
+    width: 550px;
+    border: 2px solid #000;
+    font:17px arial;
+    padding: 10px;
+    writing-mode: vertical-rl;
+    /* text-orientation:upright ; */
+        text-orientation:mixed ;
+}
