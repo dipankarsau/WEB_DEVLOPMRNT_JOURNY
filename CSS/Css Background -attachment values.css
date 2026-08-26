@@ -1,0 +1,13 @@
+/* CSS Background-Attachment Values
+· Scroll
+· Fixed */
+
+.Back {
+    background-image: url(../ASSEST/ICON/pexels-skyler-ewing-266953-7476036.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    background-attachment: fixed;
+}
