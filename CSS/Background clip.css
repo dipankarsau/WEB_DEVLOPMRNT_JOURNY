@@ -1,0 +1,18 @@
+/* CSS Background-Clip Values
+
+· padding-box
+· border-box
+· content-box */
+
+
+
+
+.box{
+    width: 600px;
+    height: 400px;
+    border: 4px dotted black;
+    background-color: rgb(166, 166, 184);
+    background-clip: content-box;
+    text-align: center;
+
+}

@@ -1,0 +1,16 @@
+/* CSS Background-Origin Values
+· padding-box
+· border-box
+· content-box */
+
+
+.box{
+    width: 800px;
+    height: 600px;
+    border: 6px dotted black;
+    background-size: 400px;
+    background-image: url(../ASSEST/ICON/pexels-skyler-ewing-266953-7476036.jpg) ;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    padding: 10px;
+}
