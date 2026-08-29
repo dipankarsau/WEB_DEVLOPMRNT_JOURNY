@@ -1,0 +1,57 @@
+/* CSS Mix-Blend-Mode Values
+
+· Normal
+
+. Multiply
+
+· Screen
+
+· Overlay
+
+· Darken
+
+· Lighten
+
+· color-dodge
+
+· color-burn
+
+· hard-light
+
+· soft-light
+
+· difference
+
+· exclusion
+
+· hue
+
+· Color
+
+· Saturation
+
+. luminosity */
+
+
+
+
+
+
+
+
+
+.box{
+
+
+    width: 600px;
+    height: 400px;
+    background-image: url(../ASSEST/ICON/Screenshot\ 2026-08-08\ 215031.png);
+  
+
+}
+h2{
+    text-align: center;
+    background: red;
+      mix-blend-mode:difference;
+
+}

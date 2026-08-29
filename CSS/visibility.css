@@ -1,0 +1,21 @@
+/* Visibility Values
+
+· Visible
+
+· Hidden
+
+· Collapse */
+
+ul{
+    visibility: hidden;
+    /* visibility: visible; */
+}
+table{
+    border: 2px solid black;
+}
+.first{
+    visibility: collapse;
+}
+.second{
+    visibility: collapse;
+}
