@@ -1,0 +1,18 @@
+.box{
+    width: 600px;
+    height: 400px;
+    border:  2px solid black;
+    /* background:linear-gradient(to left ,red,yellow,green,blue,gold) ;
+    background: linear-gradient(rgba(255,0,0,0,)); */
+    background: repeating-linear-gradient(to right, red  , yellow 10%,green 10%);
+}
+.box1{
+    width: 600px;
+    height: 400px;
+    border:  2px solid black;
+
+
+    background: radial-gradient(circle, yellow 70%,green 90%, red 30%);
+    background: radial-gradient(closest-side at 50% 60%, yellow , green);
+    
+}
