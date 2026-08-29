@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: azure;
+}
+.wrapper{
+    width: 70%;
+    height: 100%;
+    border:  1px solid black;
+    margin: 0 auto;
+}
+
+
+.header,.fotter{
+    width: auto;
+    height: 50px;
+    background-color: green;
+
+}
+.header,.fotter h1{
+    text-align: center;
+    color: white;
+}
+
+.content{
+    height: 650px;
+    /* background-color: rgb(184, 40, 95); */
+    
+}
+.left{
+    height: 650px;
+    width: 20%;
+    background-color: pink;
+    float: left;
+    
+
+
+}
+h2{
+    text-align: center;
+  
+  
+    padding-top: 280px;
+
+    color: blue;
+}
+
+.center {
+    height: 650px;
+    width: 60%;
+    background-color: red;
+    float: left;
+}
+
+.right {
+    height: 650px;
+    width: 20%;
+    background-color: lime;
+    float: left;
+}
+/* .fotter{
+    width: auto;
+    height: 50px;
+    background-color: green;
+
+} */
