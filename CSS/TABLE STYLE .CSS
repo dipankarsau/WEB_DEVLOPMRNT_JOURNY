@@ -1,0 +1,17 @@
+table,th,td{
+    border: 1px solid black;
+}
+table{
+    width: 300px;
+    /* border-spacing: 10px 20px; */
+    /* border-collapse:collapse ; */
+    empty-cells: hide;
+}
+td,th{
+    /* vertical-align: top; */
+    /* vertical-align: bottom; */
+    padding: 20px;
+}
+caption{
+caption-side: bottom;
+}
