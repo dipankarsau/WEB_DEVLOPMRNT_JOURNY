@@ -4,13 +4,13 @@ table,th,td{
 table{
     width: 300px;
     /* border-spacing: 10px 20px; */
-    /* border-collapse:collapse ; */
+    border-collapse:collapse ;
     empty-cells: hide;
 }
 td,th{
     /* vertical-align: top; */
     /* vertical-align: bottom; */
-    padding: 20px;
+    /* padding: 20px; */
 }
 caption{
 caption-side: bottom;
