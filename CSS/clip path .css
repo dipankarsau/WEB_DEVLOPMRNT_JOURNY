@@ -1,0 +1,13 @@
+img{
+    /* clip-path: circle(90% at 0% 10%); */
+    /* clip-path: ellipse(30% 10% at 50% 50%); */
+    /* clip-path: inset(5% 20% 15% 10%); */
+    /* clip-path: polygon(50% 0 , 0% 100%, 100% 100%); */
+}
+.box1{
+    height: 400px;
+    width: 300px;
+    background-color: brown;
+    clip-path: polygon(50% 0 , 0% 100%, 100% 100%);
+}
+
