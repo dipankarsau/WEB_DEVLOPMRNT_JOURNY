@@ -1,0 +1,17 @@
+:root {
+    --main-color: purple;
+    --text-color: white;
+    --card-width: 400px;
+    --card-border: 2px solid red;
+    --padding: 30px;
+  
+}
+
+.card {
+    width: var(--card-width);
+    border: var(--card-border);
+    color: var(--text-color);
+    padding: var(--padding);
+    background-color: var(--main-color);
+
+}

@@ -1,0 +1,17 @@
+.box{
+    width: 600px;
+    height: 600px;
+    background-color: antiquewhite;
+    /* cursor:help; */
+    /* cursor: pointer; */
+    /* cursor: cell; */
+    /* cursor: progress; */
+    /* cursor:wait ; */
+    /* cursor: vertical-text; */
+    /* cursor: alias; */
+    /* cursor: move; */
+    /* cursor: no-drop; */
+/* cursor: n-resize; */
+/* cursor: nw-resize; */
+cursor: context-menu;
+}
