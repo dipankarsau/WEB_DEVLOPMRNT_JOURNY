@@ -1,0 +1,17 @@
+.box1 img {
+    width: 300px;
+    float: left;
+
+    /* Makes the visible image circular */
+    clip-path: circle(30% at 30% 50%);
+
+    /* Makes the text flow around the circle */
+    shape-outside: circle(30% at 30% 50%);
+    shape-margin: 40px;
+}
+
+
+.box1 p {
+    font-size: 18px;
+    line-height: 1.5;
+}
