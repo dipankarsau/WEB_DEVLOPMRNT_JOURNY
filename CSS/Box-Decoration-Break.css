@@ -1,0 +1,12 @@
+.box{
+    color: rgb(120, 120, 18);
+
+}
+span{
+        border: 1px solid black;
+        border-radius: 5px;
+        box-decoration-break: clone;
+      margin: 10px;
+          /* box-decoration-break: slice; */
+          padding: 10px;
+}
