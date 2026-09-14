@@ -1,0 +1,16 @@
+.container p {
+    padding: 15px;
+    margin: 5px;
+    background-color: lightgray;
+}
+
+/* 4th child = JavaScript */
+.container p:nth-child(4) {
+    background-color: rgb(149, 41, 41);
+    color: aquamarine;
+}
+
+/* 1st child = h1 */
+.container :nth-child(1) {
+    background-color: blueviolet;
+}
