@@ -35,6 +35,10 @@ p:last-of-type{
     color: rgb(60, 167, 14);
 } */
 
-div:empty{
+/* div:empty{
     border: 2px solid red;
+} */
+
+p:not(.text){
+    color: blue;
 }
