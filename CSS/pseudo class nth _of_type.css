@@ -38,7 +38,13 @@ p:last-of-type{
 /* div:empty{
     border: 2px solid red;
 } */
-
+/* 
 p:not(.text){
     color: blue;
-}
+} */
+ p:lang(en){
+    color: antiquewhite;
+ }
+ p:lang(fr){
+    color: brown;
+ }
