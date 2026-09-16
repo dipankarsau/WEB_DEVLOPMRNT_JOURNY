@@ -28,9 +28,13 @@ color: blueviolet;
     color: blueviolet;
 } */
 
-p:first-of-type{
+/* p:first-of-type{
     color: brown;
 }
 p:last-of-type{
     color: rgb(60, 167, 14);
+} */
+
+div:empty{
+    border: 2px solid red;
 }
