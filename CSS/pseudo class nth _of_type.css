@@ -5,10 +5,18 @@
     border: 2px solid black;
 }
 
-p:nth-last-of-type(1) {
+/* p:nth-last-of-type(1) {
     color: brown;
     font-size: 30px;
 }
 p:nth-of-type(1){
     color: blue;
+} */
+
+
+p:nth-last-of-type(2){
+    color: aquamarine;
+}
+p:nth-last-of-type(3){
+    color: antiquewhite;
 }
