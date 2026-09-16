@@ -5,6 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+        input:focus{
+            outline: none;
+            border:  2px solid red;
+        }
+   input[type="checkbox"]:checked +label {
+    box-shadow: 0 0 0 3px red;
+    color: brown;
+}
+
+input[type="radio"]:checked + label {
+    box-shadow: 0 0 0 3px red;
+    color: red;
+}
+
+
+/* input [type="text"]{
+    border: 2px solid red;
+} */
+/* input:disabled{
+    border: 2px solid red;
+} */
+ input:required{
+    border:  2px solid green;
+    background-color:wheat;
+ }
+input:optional{
+    background-color: azure;
+}
+input[type="email"]:invalid {
+    /* background-color: pink; */
+    background-color: red;
+}
+    </style>
 </head>
 
 <body>
@@ -12,14 +47,18 @@
         <fieldset>
             <legend>personal detail</legend>
         <label for="name">name</label>
-        <input type="text" name="fname" id="name" value="" placeholder="please enter your name"><br> <br>
+        <input type="text" name="fname" id="name" value="" placeholder="please enter your name" ><br> <br>
         <label>password</label>
-        <input type="password" name=""><br> <br>
+        <input type="password" name="" disabled ><br> <br>
         <label>gender</label>
         <input type="radio" name="gender" id="male">
         <label for="male">Male</label>
-        <input type="radio" name="gender" id="female">
+        <input type="radio" name="gender" id="female" >
         <label for="female">feMale</label><br> <br>
+        <br><br>
+        <label for="email">enter your email</label>
+        <input type="email" required>
+        
 
 
 
