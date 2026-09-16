@@ -20,7 +20,10 @@ p:nth-of-type(1){
 p:nth-last-of-type(3){
     color: antiquewhite;
 } */
-
+/* 
  p:only-child {
 color: blueviolet;
+} */
+p:only-of-type{
+    color: blueviolet;
 }
