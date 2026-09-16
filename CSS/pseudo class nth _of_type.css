@@ -1,0 +1,14 @@
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+p:nth-last-of-type(1) {
+    color: brown;
+    font-size: 30px;
+}
+p:nth-of-type(1){
+    color: blue;
+}
