@@ -24,6 +24,13 @@ p:nth-last-of-type(3){
  p:only-child {
 color: blueviolet;
 } */
-p:only-of-type{
+/* p:only-of-type{
     color: blueviolet;
+} */
+
+p:first-of-type{
+    color: brown;
+}
+p:last-of-type{
+    color: rgb(60, 167, 14);
 }
